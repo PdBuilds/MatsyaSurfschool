@@ -7,9 +7,12 @@ const nextConfig = {
   typescript: {
     ignoreBuildErrors: true,
   },
+  basePath: "/MatsyaSurfschool",
+  assetPrefix: "/MatsyaSurfschool/",
   images: {
     unoptimized: true,
   },
-};
+  trailingSlash: true,   // <-- IMPORTANT FOR GITHUB PAGES
+}
 
-export default nextConfig;
+export default nextConfig

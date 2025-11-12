@@ -1,7 +1,7 @@
 {
   "logo": {
     "id": "logo",
-    "path": "/matsya-surf-school-logo-round.png",
+    "path": "matsya-surf-school-logo-round.png",
     "alt": "Matsya Surf School Logo - Ride the Wave",
     "title": "Matsya Surf School",
     "tags": ["logo", "branding", "surf school"],
@@ -16,7 +16,7 @@
   },
   "hero": {
     "id": "hero-background",
-    "path": "/beautiful-kapu-beach-in-udupi-india-with-surfers-a.jpg",
+    "path": "beautiful-kapu-beach-in-udupi-india-with-surfers-a.jpg",
     "alt": "Beautiful Kapu Beach in Udupi, India with surfers riding waves at sunset",
     "title": "Kapu Beach - Premier Surfing Destination",
     "tags": ["kapu beach", "surfing", "waves", "sunset", "india", "udupi"],
@@ -28,7 +28,7 @@
   },
   "about": {
     "id": "about-instructor",
-    "path": "/about-matsya.jpeg",
+    "path": "about-matsya.jpeg",
     "alt": "Professional surf instructor teaching beginner student proper surfing technique on Kapu Beach",
     "title": "Expert Surf Instruction",
     "tags": ["surf instructor", "teaching", "lessons", "beginner", "kapu beach"],
@@ -41,7 +41,7 @@
   "gallery": [
     {
       "id": "gallery-1",
-      "path": "/gallery/surfers-riding-waves-sunset.jpg",
+      "path": "gallery/surfers-riding-waves-sunset.jpg",
       "alt": "Surfers riding perfect waves at Kapu Beach during golden hour sunset",
       "title": "Sunset Surfing Session",
       "tags": ["surfing", "waves", "sunset", "kapu beach", "action"],
@@ -51,7 +51,7 @@
     },
     {
       "id": "gallery-2",
-      "path": "/gallery/surf-students-learning-beach.jpg",
+      "path": "gallery/surf-students-learning-beach.jpg",
       "alt": "Group of surf school students learning basic techniques on the beach with instructor",
       "title": "Beginner Surf Lessons",
       "tags": ["surf lessons", "students", "learning", "beach", "group"],
@@ -61,7 +61,7 @@
     },
     {
       "id": "gallery-3",
-      "path": "/gallery/surfboards-lined-sandy-beach.jpg",
+      "path": "gallery/surfboards-lined-sandy-beach.jpg",
       "alt": "Colorful surfboards lined up on sandy beach ready for surf lessons",
       "title": "Quality Surf Equipment",
       "tags": ["surfboards", "equipment", "beach", "gear"],
@@ -71,7 +71,7 @@
     },
     {
       "id": "gallery-4",
-      "path": "/gallery/aerial-view-surf-school.jpg",
+      "path": "gallery/aerial-view-surf-school.jpg",
       "alt": "Aerial drone view of Matsya Surf School facility at Kapu Beach with ocean waves",
       "title": "Our Surf School Facility",
       "tags": ["aerial view", "facility", "kapu beach", "surf school"],
@@ -81,7 +81,7 @@
     },
     {
       "id": "gallery-5",
-      "path": "/gallery/group-surf-lesson-ocean.jpg",
+      "path": "gallery/group-surf-lesson-ocean.jpg",
       "alt": "Group of students practicing surfing in ocean waves with instructor supervision",
       "title": "Group Surf Training",
       "tags": ["group lesson", "ocean", "waves", "training"],
@@ -91,7 +91,7 @@
     },
     {
       "id": "gallery-6",
-      "path": "/gallery/instructor-demonstrating-technique.jpg",
+      "path": "gallery/instructor-demonstrating-technique.jpg",
       "alt": "Experienced surf instructor demonstrating proper pop-up technique on surfboard",
       "title": "Professional Instruction",
       "tags": ["instructor", "technique", "demonstration", "teaching"],
@@ -103,7 +103,7 @@
   "accommodation": {
     "non-ac-dorm": {
       "id": "non-ac-dorm",
-      "path": "/accomodation/IMG_2338.HEIC",
+      "path": "accomodation/IMG_2338.HEIC",
       "alt": "Comfortable shared dorm room with bunk beds, lockers, and beach view - budget accommodation",
       "title": "Non A/C Shared Dorm",
       "tags": ["accommodation", "dorm", "shared", "budget", "beach view"],
@@ -113,7 +113,7 @@
     },
     "ac-dorm": {
       "id": "ac-dorm",
-      "path": "/accommodation/ac-dorm-modern-amenities.jpg",
+      "path": "accommodation/ac-dorm-modern-amenities.jpg",
       "alt": "Air-conditioned dorm room with modern amenities, comfortable beds, and charging stations",
       "title": "A/C Shared Dorm",
       "tags": ["accommodation", "dorm", "air conditioning", "modern", "comfort"],
@@ -123,7 +123,7 @@
     },
     "non-ac-room": {
       "id": "non-ac-room",
-      "path": "/accommodation/private-room-fan-ocean-view.jpg",
+      "path": "accommodation/private-room-fan-ocean-view.jpg",
       "alt": "Private room with ceiling fan, comfortable bed, and stunning ocean view from window",
       "title": "Non A/C Private Room",
       "tags": ["accommodation", "private room", "ocean view", "fan", "budget"],
@@ -133,7 +133,7 @@
     },
     "ac-room": {
       "id": "ac-room",
-      "path": "/accommodation/luxury-ac-room-sea-view.jpg",
+      "path": "accommodation/luxury-ac-room-sea-view.jpg",
       "alt": "Llocationsuxury air-conditioned private room with king bed, modern bathroom, and panoramic sea view",
       "title": "A/C Private Room",
       "tags": ["accommodation", "private room", "luxury", "air conditioning", "sea view"],
@@ -145,7 +145,7 @@
   "locations": {
     "kapu": {
       "id": "location-padubidri",
-      "path": "/location/about-matsya.jpeg",
+      "path": "location/about-matsya.jpeg",
       "alt": "Kapu Beach surf school location with consistent waves perfect for learning and intermediate surfing",
       "title": "Kapu Beach Location",
       "tags": ["kapu beach", "location", "waves", "udupi", "karnataka"],
@@ -155,7 +155,7 @@
     },
     "mulki": {
       "id": "location-mulki",
-      "path": "/locations/mulki-beach-calm-waters.jpg",
+      "path": "locations/mulki-beach-calm-waters.jpg",
       "alt": "Mulki Beach surf school with calm waters ideal for beginner surfers and families",
       "title": "Mulki Beach Location",
       "tags": ["mulki beach", "location", "calm waters", "beginner friendly", "mangalore"],
@@ -165,7 +165,7 @@
     },
     "malpe": {
       "id": "location-malpe",
-      "path": "/locations/malpe-beach-advanced-waves.jpg",
+      "path": "locations/malpe-beach-advanced-waves.jpg",
       "alt": "Malpe Beach surf spot with powerful waves for advanced and experienced surfers",
       "title": "Malpe Beach Location",
       "tags": ["malpe beach", "location", "advanced waves", "experienced", "udupi"],

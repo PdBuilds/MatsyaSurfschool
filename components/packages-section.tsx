@@ -11,14 +11,14 @@ interface PackagesSectionProps {
 }
 
 export function PackagesSection({ isVisible }: PackagesSectionProps) {
-  const [expandedSections, setExpandedSections] = useState({})
+  const [expandedSections, setExpandedSections] = useState<Record<string, boolean>>({})
 
   const packages = getPackages()
 
   const toggleSection = (sectionId: string) => {
     setExpandedSections((prev) => ({
       ...prev,
-      [sectionId]: !prev[sectionId],
+      [sectionId]: !(prev[sectionId] ?? false),
     }))
   }
 
