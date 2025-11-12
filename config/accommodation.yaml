@@ -1,0 +1,63 @@
+accommodation:
+  - id: "non-ac-dorm"
+    type: "Non A/C Dorm"
+    price: "₹1,000"
+    pricePerNight: 1000
+    description: "Shared dorm room with comfortable bunk beds"
+    image: "shared%20dorm%20room%20with%20bunk%20beds%20near%20beach"
+    amenities:
+      - "Comfortable bunk beds"
+      - "Shared bathroom"
+      - "Lockers for valuables"
+      - "Common area access"
+      - "Homely meals included"
+
+  - id: "ac-dorm"
+    type: "A/C Dorm"
+    price: "₹1,500"
+    pricePerNight: 1500
+    description: "Air-conditioned shared dorm with modern amenities"
+    image: "air%20conditioned%20dorm%20room%20with%20modern%20amenities"
+    amenities:
+      - "Air conditioning"
+      - "Comfortable bunk beds"
+      - "Shared bathroom"
+      - "Lockers for valuables"
+      - "Common area access"
+      - "Homely meals included"
+
+  - id: "non-ac-room"
+    type: "Non A/C Room"
+    price: "₹3,000"
+    pricePerNight: 3000
+    description: "Private room with fan and beautiful ocean view"
+    image: "private%20room%20with%20fan%20and%20ocean%20view"
+    amenities:
+      - "Private room"
+      - "Ceiling fan"
+      - "Ocean view"
+      - "Private bathroom"
+      - "Queen-size bed"
+      - "Homely meals included"
+
+  - id: "ac-room"
+    type: "A/C Room"
+    price: "₹3,500"
+    pricePerNight: 3500
+    description: "Luxury air-conditioned room with stunning sea view"
+    image: "luxury%20air%20conditioned%20room%20with%20sea%20view"
+    amenities:
+      - "Air conditioning"
+      - "Private room"
+      - "Sea view"
+      - "Private bathroom"
+      - "Queen-size bed"
+      - "Mini-fridge"
+      - "Homely meals included"
+
+extras:
+  - id: "extra-bed"
+    name: "Extra Bed"
+    price: "₹500"
+    priceAmount: 500
+    description: "Additional bed in your room"

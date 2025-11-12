@@ -1,0 +1,84 @@
+{
+  "packages": [
+    {
+      "id": "1-day-course",
+      "title": "1 DAY SURF PACKAGE",
+      "description": "1 day Surf lessons",
+      "duration": "2 hr",
+      "price": "₹1,500",
+      "originalPrice": "₹2,000",
+      "days": 1,
+      "nights":0,
+      "type": "q-day-course",
+      "includes": [
+        "1 surf lesson",
+        "All surfing equipment provided",
+        "Basic first aid coverage"
+      ]
+    },
+    {
+      "id": "3-day-course",
+      "title": "3 DAY SURF PACKAGE",
+      "description": "3 day Surf lessons",
+      "duration": "2 hr",
+      "price": "₹4,500",
+      "originalPrice": "₹5,000",
+      "days": 3,
+      "nights": 2,
+      "type": "3-day-course",
+      "includes": [
+        "3 surf lessons (2 hours each)",
+        "All surfing equipment provided",
+        "Basic first aid coverage"
+      ]
+    },
+    {
+      "id": "5-day",
+      "title": "5 DAY SURF PACKAGE",
+      "description": "5 day Surf lessons ",
+      "duration": "2 hr",
+      "price": "₹7,000",
+      "originalPrice": "₹8,000",
+      "days": 5,
+      "nights": 4,
+      "type": "5-day-course",
+      "includes": [
+        "5 surf lessons (2 hours each)",
+        "All surfing equipment provided",
+        "Basic first aid coverage"
+      ]
+    },
+    {
+      "id": "7-day",
+      "title": "7 DAY SURF PACKAGE",
+      "description": "7 day Surf lessons",
+      "duration": "2 hr",
+      "price": "₹9,500",
+      "originalPrice": "₹10,500",
+      "days": 7,
+      "nights": 6,
+      "type": "7-day-course",
+      "includes": [
+        "7 surf lessons (2 hours each)",
+        "All surfing equipment provided",
+        "Basic first aid coverage"
+      ]
+    },
+    {
+      "id": "10-day",
+      "title": "10 DAY SURF PACKAGE",
+      "description": "10 day Surf lessons",
+      "duration": "2 hr",
+      "price": "₹13,000",
+      "originalPrice": "₹14,000",
+      "days": 10,
+      "nights": 9,
+      "type": "10-day-course",
+      "includes": [
+        "10 surf lessons (2 hours each)",
+        "All surfing equipment provided",
+        "Basic first aid coverage"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,128 @@
+packages:
+  - id: "3-day-non-ac"
+    title: "3 DAY SURF PACKAGE (Non AC)"
+    description: "3 day Surf lessons + 2 night Dorm bed stay + Brunch"
+    duration: "2 hr"
+    price: "₹4,500"
+    originalPrice: "₹5,000"
+    days: 3
+    nights: 2
+    type: "Non-AC"
+    includes:
+      - "3 surf lessons (2 hours each)"
+      - "Non-AC dorm accommodation"
+      - "Daily nutritious brunch"
+      - "All surfing equipment provided"
+      - "Basic first aid coverage"
+
+  - id: "3-day-ac"
+    title: "3 DAY SURF PACKAGE (AC)"
+    description: "3 day Surf lessons + 2 night AC Dorm bed stay + Brunch"
+    duration: "2 hr"
+    price: "₹5,500"
+    originalPrice: "5,500 Indian rupees"
+    days: 3
+    nights: 2
+    type: "AC"
+    includes:
+      - "3 surf lessons (2 hours each)"
+      - "AC dorm accommodation"
+      - "Daily nutritious brunch"
+      - "All surfing equipment provided"
+      - "Basic first aid coverage"
+
+  - id: "5-day-non-ac"
+    title: "5 DAY SURF PACKAGE (Non AC)"
+    description: "5 day Surf lessons "
+    duration: "2 hr"
+    price: "₹6,500"
+    originalPrice: "6,500 Indian rupees"
+    days: 5
+    nights: 4
+    type: "Non-AC"
+    includes:
+      - "5 surf lessons (2 hours each)"
+      - "Non-AC dorm accommodation"
+      - "Daily nutritious brunch"
+      - "All surfing equipment provided"
+      - "Basic first aid coverage"
+
+  - id: "5-day-ac"
+    title: "5 DAY SURF PACKAGE (AC)"
+    description: "5 day Surf lessons + 4 night AC Dorm bed stay + Brunch"
+    duration: "2 hr"
+    price: "₹8,500"
+    originalPrice: "8,500 Indian rupees"
+    days: 5
+    nights: 4
+    type: "AC"
+    includes:
+      - "5 surf lessons (2 hours each)"
+      - "AC dorm accommodation"
+      - "Daily nutritious brunch"
+      - "All surfing equipment provided"
+      - "Basic first aid coverage"
+
+  - id: "7-day-non-ac"
+    title: "7 DAY SURF PACKAGE (Non AC)"
+    description: "7 day Surf lessons + 6 night Dorm bed stay + Brunch"
+    duration: "2 hr"
+    price: "₹9,000"
+    originalPrice: "9,000 Indian rupees"
+    days: 7
+    nights: 6
+    type: "Non-AC"
+    includes:
+      - "7 surf lessons (2 hours each)"
+      - "Non-AC dorm accommodation"
+      - "Daily nutritious brunch"
+      - "All surfing equipment provided"
+      - "Basic first aid coverage"
+
+  - id: "7-day-ac"
+    title: "7 DAY SURF PACKAGE (AC)"
+    description: "7 day Surf lessons + 6 night AC Dorm bed stay + Brunch"
+    duration: "2 hr"
+    price: "₹11,500"
+    originalPrice: "11,500 Indian rupees"
+    days: 7
+    nights: 6
+    type: "AC"
+    includes:
+      - "7 surf lessons (2 hours each)"
+      - "AC dorm accommodation"
+      - "Daily nutritious brunch"
+      - "All surfing equipment provided"
+      - "Basic first aid coverage"
+
+  - id: "10-day-non-ac"
+    title: "10 DAY SURF PACKAGE (Non AC)"
+    description: "10 day Surf lessons + 9 night Dorm bed stay + Brunch"
+    duration: "2 hr"
+    price: "₹12,500"
+    originalPrice: "12,500 Indian rupees"
+    days: 10
+    nights: 9
+    type: "Non-AC"
+    includes:
+      - "10 surf lessons (2 hours each)"
+      - "Non-AC dorm accommodation"
+      - "Daily nutritious brunch"
+      - "All surfing equipment provided"
+      - "Basic first aid coverage"
+
+  - id: "10-day-ac"
+    title: "10 DAY SURF PACKAGE (AC)"
+    description: "10 day Surf lessons + 9 night AC Dorm bed stay + Brunch"
+    duration: "2 hr"
+    price: "₹15,500"
+    originalPrice: "15,500 Indian rupees"
+    days: 10
+    nights: 9
+    type: "AC"
+    includes:
+      - "10 surf lessons (2 hours each)"
+      - "AC dorm accommodation"
+      - "Daily nutritious brunch"
+      - "All surfing equipment provided"
+      - "Basic first aid coverage"
