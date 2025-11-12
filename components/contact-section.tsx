@@ -44,9 +44,30 @@ export function ContactSection() {
                 </div>
               </div>
               <div className="pt-6">
-                <Button className="w-full bg-green-600 hover:bg-green-700 text-white mb-4 hover-glow">
-                  <MessageCircle className="h-5 w-5 mr-2" />
-                  WhatsApp Booking
+                <Button
+                  asChild
+                  className="w-full bg-green-600 hover:bg-green-700 text-white mb-4 hover-glow"
+                >
+                  <a
+                    href={`https://wa.me/919876543210?text=${encodeURIComponent(
+                      `Hi Matsya Surf School 🌊,
+              I'd like to book a surf package.
+
+              📌 Name:
+              📧 Email/Phone:
+              🏄 Package:
+              📍 Location (Kapu/Mulki/Malpe):
+              📅 Preferred Date:
+              💬 Message (optional):
+
+              Please share availability and details.`
+                    )}`}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <MessageCircle className="h-5 w-5 mr-2" />
+                    WhatsApp Booking
+                  </a>
                 </Button>
               </div>
             </CardContent>
