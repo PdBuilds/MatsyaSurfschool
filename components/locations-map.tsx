@@ -7,23 +7,24 @@ import { MapPin, Phone, Navigation } from "lucide-react"
 
 const locations = [
   {
-    name: "Padubidri",
-    address: "Kapu Beach, Udupi, Karnataka",
-    phone: "+91 98765 43210",
+    name: "Yermal",
+    address: "Padubidri near by mulki, Udupi, Karnataka",
+    phone: "+91 8050201112",
     description: "Our flagship location with pristine waves and golden sand",
     lat: 13.1278,
     lng: 74.7731,
     image: "/location/about-matsya.jpeg",
   },
   {
-    name: "Yermal",
-    address: "Yermal Beach, Udupi, Karnataka",
+    name: "Padubidri",
+    address: "Padubidri near by mulki, Udupi, Karnataka",
     phone: "+91 98765 43210",
     description: "Our flagship location with pristine waves and golden sand",
     lat: 13.1278,
     lng: 74.7731,
     image: "/location/about-matsya.jpeg",
-  }
+  },
+
 ]
 
 export function LocationsMap({ isVisible }: { isVisible: boolean }) {
