@@ -50,17 +50,17 @@ export function ContactSection() {
                 >
                   <a
                     href={`https://wa.me/919876543210?text=${encodeURIComponent(
-                      `Hi Matsya Surf School 🌊,
-              I'd like to book a surf package.
+`Hi Matsya Surf School 🌊,
+I'd like to book a surf package.
 
-              📌 Name:
-              📧 Email/Phone:
-              🏄 Package:
-              📍 Location (Kapu/Mulki/Malpe):
-              📅 Preferred Date:
-              💬 Message (optional):
+Name:
+Email/Phone:
+Package:
+Location (Kapu/Mulki/Malpe):
+Preferred Date:
+Message (optional):
 
-              Please share availability and details.`
+Please share availability and details.`
                     )}`}
                     target="_blank"
                     rel="noopener noreferrer"
