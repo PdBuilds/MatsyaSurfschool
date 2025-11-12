@@ -56,7 +56,7 @@ I'd like to book a surf package.
 Name:
 Email/Phone:
 Package:
-Location (Kapu/Mulki/Malpe):
+Location (Padubidri):
 Preferred Date:
 Message (optional):
 
