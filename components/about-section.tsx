@@ -64,9 +64,28 @@ export function AboutSection({ isVisible }: AboutSectionProps) {
               </div>
             )}
           </div>
-          <div className={`${isVisible ? "animate-story-fade-scale" : "opacity-0"} hover-lift`}>
-            <ConfiguredImage config={getImageConfig("about")} className="shadow-lg" />
-          </div>
+          <div
+              className={`${isVisible ? "animate-story-fade-scale" : "opacity-0"} hover-lift relative group`}
+              style={{ width: "100%", height: "100%" }}
+            >
+              {/* Default Image */}
+              <ConfiguredImage
+                config={getImageConfig("about")}
+                className="shadow-lg w-full h-full object-cover transition-opacity duration-300 group-hover:opacity-0"
+              />
+
+              {/* Hover Video */}
+              <video
+                src="MatsyaSurfschool.mp4"
+                className="absolute inset-0 w-full h-full object-cover opacity-0 group-hover:opacity-100 transition-opacity duration-300 rounded-lg shadow-lg"
+                muted
+                loop
+                preload="none"
+                playsInline
+                onMouseEnter={(e) => e.currentTarget.play()}
+                onMouseLeave={(e) => e.currentTarget.pause()}
+              />
+            </div>
         </div>
       </div>
     </section>
