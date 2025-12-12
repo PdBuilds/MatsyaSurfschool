@@ -11,7 +11,11 @@
       "console": "integratedTerminal",
       "env": {
         "NODE_ENV": "development"
-      }
+      },
+      "autoAttachChildProcesses": true,
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true,
+      "resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"]
     },
     {
       "name": "Next.js: Build",
@@ -23,7 +27,10 @@
       "console": "integratedTerminal",
       "env": {
         "NODE_ENV": "production"
-      }
+      },
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true,
+      "resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"]
     },
     {
       "name": "Next.js: Preview Export",
@@ -32,8 +39,25 @@
       "runtimeExecutable": "npm",
       "runtimeArgs": ["run", "preview"],
       "cwd": "${workspaceFolder}",
-      "console": "integratedTerminal"
+      "console": "integratedTerminal",
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true,
+      "resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"]
+    },
+    {
+      "name": "Next.js: Export (Static Build)",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "export"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal",
+      "env": {
+        "NODE_ENV": "production"
+      },
+      "skipFiles": ["<node_internals>/**"],
+      "sourceMaps": true,
+      "resolveSourceMapLocations": ["${workspaceFolder}/**", "!**/node_modules/**"]
     }
   ]
 }
-    

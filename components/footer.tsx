@@ -9,7 +9,7 @@ export function Footer() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="flex items-center space-x-3 mb-4 md:mb-0">
-            <img src="/matsya-surf-school-logo-round.png" alt="Matsya Logo" className="h-12 w-12 animate-gentle-float" />
+            <img src="matsya-surf-school-logo-round.png" alt="Matsya Logo" className="h-12 w-12 animate-gentle-float" />
             <span className="text-xl font-bold text-foreground">Matsya Surf School</span>
           </div>
           <div className="flex space-x-4">

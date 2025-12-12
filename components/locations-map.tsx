@@ -13,7 +13,7 @@ const locations = [
     description: "Our flagship location with pristine waves and golden sand",
     lat: 13.1278,
     lng: 74.7731,
-    image: "/location/about-matsya.jpeg",
+    image: "abstract-geometric-shapes.png",
   },
   {
     name: "Padubidri",
@@ -22,7 +22,7 @@ const locations = [
     description: "Our flagship location with pristine waves and golden sand",
     lat: 13.1278,
     lng: 74.7731,
-    image: "/location/about-matsya.jpeg",
+    image: "abstract-geometric-shapes.png",
   },
 
 ]
@@ -133,7 +133,7 @@ export function LocationsMap({ isVisible }: { isVisible: boolean }) {
         <Card className="hover-lift">
           <div className="relative overflow-hidden">
             <img
-              src={`/abstract-geometric-shapes.png?height=200&width=400&query=${locations[selectedLocation].image}`}
+              src={`abstract-geometric-shapes.png?height=200&width=400&query=${locations[selectedLocation].image}`}
               alt={locations[selectedLocation].name}
               className="w-full h-48 object-cover"
             />
