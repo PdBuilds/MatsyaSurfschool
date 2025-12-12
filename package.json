@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "rm -rf docs out && next build && mkdir -p docs && cp -r out/* docs/",
+    "export": "rm -rf docs out && next build && mkdir -p docs && cp -r out/* docs/  && touch docs/.nojekyll",
     "preview": "npx serve docs",
     "deploy": "npm run export && git add docs && git commit -m 'Deploy' && git push"
 
