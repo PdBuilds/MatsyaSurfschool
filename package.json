@@ -5,7 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "rm -rf docs out && next build && mkdir -p docs/MatsyaSurfschool && cp -r out/* docs/MatsyaSurfschool/",
+    "export": "rm -rf docs out && next build && mkdir -p docs && cp -r out/* docs/",
     "preview": "npx serve docs",
     "deploy": "npm run export && git add docs && git commit -m 'Deploy' && git push"
 
