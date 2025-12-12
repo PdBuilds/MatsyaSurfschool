@@ -5,11 +5,11 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "export": "rm -rf docs out && next build && cp -r out/* docs/ && touch docs/.nojekyll",
+    "export": "rm -rf docs out && next build && mkdir -p docs/MatsyaSurfschool && cp -r out/* docs/MatsyaSurfschool/",
     "preview": "npx serve docs",
     "deploy": "npm run export && git add docs && git commit -m 'Deploy' && git push"
-  },
 
+  },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@radix-ui/react-accordion": "1.2.2",
