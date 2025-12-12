@@ -3,8 +3,8 @@
     {
       "id": "non-ac-dorm",
       "type": "Non A/C Dorm",
-      "price": "₹1,000",
-      "pricePerNight": 1000,
+      "price": "₹750",
+      "pricePerNight": 750,
       "description": "Shared dorm room with comfortable bunk beds",
       "image": "shared%20dorm%20room%20with%20bunk%20beds%20near%20beach",
       "amenities": [
@@ -18,8 +18,8 @@
     {
       "id": "ac-dorm",
       "type": "A/C Dorm",
-      "price": "₹1,500",
-      "pricePerNight": 1500,
+      "price": "₹1,000",
+      "pricePerNight": 1000,
       "description": "Air-conditioned shared dorm with modern amenities",
       "image": "air%20conditioned%20dorm%20room%20with%20modern%20amenities",
       "amenities": [
@@ -34,8 +34,8 @@
     {
       "id": "non-ac-room",
       "type": "Non A/C Room",
-      "price": "₹3,000",
-      "pricePerNight": 3000,
+      "price": "₹2,500",
+      "pricePerNight": 2500,
       "description": "Private room with fan and beautiful ocean view",
       "image": "private%20room%20with%20fan%20and%20ocean%20view",
       "amenities": [
@@ -50,8 +50,8 @@
     {
       "id": "ac-room",
       "type": "A/C Room",
-      "price": "₹3,500",
-      "pricePerNight": 3500,
+      "price": "₹3,000",
+      "pricePerNight": 3000,
       "description": "Luxury air-conditioned room with stunning sea view",
       "image": "luxury%20air%20conditioned%20room%20with%20sea%20view",
       "amenities": [

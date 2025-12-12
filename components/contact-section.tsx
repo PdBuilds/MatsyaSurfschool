@@ -73,7 +73,7 @@ Please share availability and details.`
             </CardContent>
           </Card>
 
-          <Card className="p-8 hover-lift">
+          {/* <Card className="p-8 hover-lift">
             <CardHeader>
               <CardTitle className="text-2xl text-foreground">Book Your Package</CardTitle>
             </CardHeader>
@@ -131,7 +131,7 @@ Please share availability and details.`
                 <Button className="w-full bg-primary hover:bg-primary/90 hover-glow">Send Booking Request</Button>
               </form>
             </CardContent>
-          </Card>
+          </Card> */}
         </div>
       </div>
     </section>
