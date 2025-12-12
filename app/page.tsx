@@ -33,7 +33,7 @@ export default function SurfSchoolLanding() {
           <HeroSection scrollY={scrollY} scrollToSection={scrollToSection} />
           <AboutSection isVisible={isVisible.about} />
           <PackagesSection isVisible={isVisible.packages} />
-          {/* <StaySection isVisible={isVisible.stay} /> */}
+          <StaySection isVisible={isVisible.stay} />
           <GallerySection isVisible={isVisible.gallery} />
           <TestimonialsSection />
           <ContactSection />
